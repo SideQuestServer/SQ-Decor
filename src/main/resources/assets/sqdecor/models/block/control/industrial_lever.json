@@ -43,7 +43,8 @@
         },
         "down": {
           "texture": "#case",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "down"
         }
       }
     },

@@ -11,14 +11,14 @@
   "elements": [
     {
       "from": [
-        0,
+        1,
         0.5,
-        0
+        1
       ],
       "to": [
-        16,
+        15,
         1.5,
-        16
+        15
       ],
       "faces": {
         "north": {
@@ -61,7 +61,8 @@
       "faces": {
         "north": {
           "texture": "#frame",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "north"
         },
         "south": {
           "texture": "#frame",
@@ -69,11 +70,13 @@
         },
         "east": {
           "texture": "#frame",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "east"
         },
         "west": {
           "texture": "#frame",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "west"
         },
         "up": {
           "texture": "#frame",
@@ -81,7 +84,8 @@
         },
         "down": {
           "texture": "#frame",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "down"
         }
       }
     },
@@ -103,15 +107,18 @@
         },
         "south": {
           "texture": "#frame",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "south"
         },
         "east": {
           "texture": "#frame",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "east"
         },
         "west": {
           "texture": "#frame",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "west"
         },
         "up": {
           "texture": "#frame",
@@ -119,7 +126,8 @@
         },
         "down": {
           "texture": "#frame",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "down"
         }
       }
     },
@@ -149,7 +157,8 @@
         },
         "west": {
           "texture": "#frame",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "west"
         },
         "up": {
           "texture": "#frame",
@@ -157,7 +166,8 @@
         },
         "down": {
           "texture": "#frame",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "down"
         }
       }
     },
@@ -183,7 +193,8 @@
         },
         "east": {
           "texture": "#frame",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "east"
         },
         "west": {
           "texture": "#frame",
@@ -195,7 +206,8 @@
         },
         "down": {
           "texture": "#frame",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "down"
         }
       }
     }

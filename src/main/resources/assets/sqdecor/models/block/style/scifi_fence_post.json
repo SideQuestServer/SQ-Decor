@@ -76,7 +76,8 @@
             10
           ],
           "texture": "#all",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "down"
         }
       }
     },
@@ -214,7 +215,8 @@
             9
           ],
           "texture": "#all",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "up"
         },
         "down": {
           "uv": [

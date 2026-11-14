@@ -1,7 +1,5 @@
 package com.sqdecor.block.led;
 
-import java.util.Map;
-
 import com.sqdecor.led.LedLogic;
 
 import net.minecraft.core.BlockPos;
@@ -27,13 +25,43 @@ public class LedCageBulbBlock extends LedBlock {
     public static final DirectionProperty FACING = BlockStateProperties.FACING;
     public static final BooleanProperty ROTATED = BooleanProperty.create("rotated");
 
-    private static final Map<Direction, VoxelShape> SHAPES = Map.of(
-            Direction.UP,    Block.box(2.5, 0, 2.5, 13.5, 4, 13.5),
-            Direction.DOWN,  Block.box(2.5, 12, 2.5, 13.5, 16, 13.5),
-            Direction.NORTH, Block.box(2.5, 2.5, 12, 13.5, 13.5, 16),
-            Direction.SOUTH, Block.box(2.5, 2.5, 0, 13.5, 13.5, 4),
-            Direction.EAST,  Block.box(0, 2.5, 2.5, 4, 13.5, 13.5),
-            Direction.WEST,  Block.box(12, 2.5, 2.5, 16, 13.5, 13.5));
+    private static final double[] BASE = {5, 0, 2.75, 11, 3.5, 13.25};
+
+    private static final VoxelShape[][] SHAPES = new VoxelShape[2][6];
+
+    static {
+        for (Direction d : Direction.values()) {
+            SHAPES[0][d.get3DDataValue()] = shape(d, false);
+            SHAPES[1][d.get3DDataValue()] = shape(d, true);
+        }
+    }
+
+    private static double[] rotY(double[] b) {
+        return new double[]{16 - b[5], b[1], b[0], 16 - b[2], b[4], b[3]};
+    }
+
+    private static double[] rotX(double[] b) {
+        return new double[]{b[0], b[2], 16 - b[4], b[3], b[5], 16 - b[1]};
+    }
+
+    private static VoxelShape shape(Direction facing, boolean rotated) {
+        double[] b = BASE;
+        if (rotated) b = rotY(b);
+        int xTurns = switch (facing) {
+            case UP -> 0;
+            case DOWN -> 2;
+            default -> 1;
+        };
+        int yTurns = switch (facing) {
+            case EAST -> 1;
+            case SOUTH -> 2;
+            case WEST -> 3;
+            default -> 0;
+        };
+        for (int i = 0; i < xTurns; i++) b = rotX(b);
+        for (int i = 0; i < yTurns; i++) b = rotY(b);
+        return Block.box(b[0], b[1], b[2], b[3], b[4], b[5]);
+    }
 
     public LedCageBulbBlock(Properties properties) {
         super(properties);
@@ -79,6 +107,6 @@ public class LedCageBulbBlock extends LedBlock {
 
     @Override
     protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        return SHAPES.get(state.getValue(FACING));
+        return SHAPES[state.getValue(ROTATED) ? 1 : 0][state.getValue(FACING).get3DDataValue()];
     }
 }

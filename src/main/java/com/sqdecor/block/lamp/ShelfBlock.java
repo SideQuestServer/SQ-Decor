@@ -18,7 +18,6 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.ItemInteractionResult;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.DyeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -113,8 +112,7 @@ public class ShelfBlock extends LampBlock {
     protected ItemInteractionResult useItemOn(ItemStack stack, BlockState state, Level level, BlockPos pos,
                                               Player player, InteractionHand hand, BlockHitResult hit) {
         boolean tool = stack.getItem() instanceof ChannelItem || stack.getItem() instanceof LedTunerItem;
-        boolean paint = stack.getItem() instanceof DyeItem
-                || (stack.getItem() instanceof BlockItem item && LampBlockEntity.canUseAsTexture(item.getBlock()));
+        boolean paint = stack.getItem() instanceof DyeItem;
         if (tool || paint) return super.useItemOn(stack, state, level, pos, player, hand, hit);
         if (!(level.getBlockEntity(pos) instanceof LampBlockEntity be)) return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
 

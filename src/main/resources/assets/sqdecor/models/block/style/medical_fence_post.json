@@ -75,7 +75,8 @@
             9.5
           ],
           "texture": "#all",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "down"
         }
       }
     },

@@ -37,7 +37,8 @@
           "texture": "#yellow"
         },
         "down": {
-          "texture": "#yellow"
+          "texture": "#yellow",
+          "cullface": "down"
         }
       }
     },

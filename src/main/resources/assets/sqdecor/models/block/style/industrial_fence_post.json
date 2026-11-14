@@ -77,7 +77,8 @@
             9.2
           ],
           "texture": "#all",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "down"
         }
       }
     },
@@ -141,7 +142,8 @@
             9.6
           ],
           "texture": "#all",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "up"
         },
         "down": {
           "uv": [

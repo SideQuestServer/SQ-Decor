@@ -22,7 +22,8 @@
           "texture": "#all"
         },
         "south": {
-          "texture": "#all"
+          "texture": "#all",
+          "cullface": "south"
         },
         "east": {
           "texture": "#all"

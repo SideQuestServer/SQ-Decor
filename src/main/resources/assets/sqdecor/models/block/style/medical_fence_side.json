@@ -25,7 +25,8 @@
             14
           ],
           "texture": "#all",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "north"
         },
         "south": {
           "uv": [
@@ -99,7 +100,8 @@
             4
           ],
           "texture": "#all",
-          "tintindex": 0
+          "tintindex": 0,
+          "cullface": "north"
         },
         "south": {
           "uv": [

@@ -128,6 +128,7 @@
           ]
         },
         "east": {
+          "cullface": "east",
           "texture": "#0",
           "tintindex": 0,
           "uv": [
@@ -169,6 +170,7 @@
           ]
         },
         "west": {
+          "cullface": "west",
           "texture": "#0",
           "tintindex": 0,
           "uv": [
@@ -193,7 +195,6 @@
           7
         ]
       },
-      "shade": false,
       "to": [
         16,
         1,
@@ -203,6 +204,7 @@
     {
       "faces": {
         "down": {
+          "cullface": "down",
           "rotation": 270,
           "texture": "#0",
           "tintindex": 0,
@@ -214,6 +216,7 @@
           ]
         },
         "east": {
+          "cullface": "east",
           "texture": "#0",
           "tintindex": 0,
           "uv": [
@@ -255,6 +258,7 @@
           ]
         },
         "west": {
+          "cullface": "west",
           "texture": "#0",
           "tintindex": 0,
           "uv": [
@@ -266,7 +270,7 @@
         }
       },
       "from": [
-        0,
+        0.02999999999999936,
         0,
         7.55
       ],
@@ -279,9 +283,8 @@
           7
         ]
       },
-      "shade": false,
       "to": [
-        16,
+        15.97,
         1.2,
         8.45
       ]

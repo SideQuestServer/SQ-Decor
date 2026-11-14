@@ -128,6 +128,7 @@
           ]
         },
         "east": {
+          "cullface": "east",
           "texture": "#0",
           "tintindex": 0,
           "uv": [
@@ -169,6 +170,7 @@
           ]
         },
         "west": {
+          "cullface": "west",
           "texture": "#0",
           "tintindex": 0,
           "uv": [
@@ -193,7 +195,6 @@
           4
         ]
       },
-      "shade": false,
       "to": [
         16,
         1,
@@ -203,6 +204,7 @@
     {
       "faces": {
         "down": {
+          "cullface": "down",
           "rotation": 270,
           "texture": "#0",
           "tintindex": 0,
@@ -214,6 +216,7 @@
           ]
         },
         "east": {
+          "cullface": "east",
           "texture": "#0",
           "tintindex": 0,
           "uv": [
@@ -255,6 +258,7 @@
           ]
         },
         "west": {
+          "cullface": "west",
           "texture": "#0",
           "tintindex": 0,
           "uv": [
@@ -266,7 +270,7 @@
         }
       },
       "from": [
-        0,
+        0.02999999999999936,
         0,
         4.55
       ],
@@ -279,9 +283,8 @@
           4
         ]
       },
-      "shade": false,
       "to": [
-        16,
+        15.97,
         1.2,
         5.45
       ]
@@ -300,6 +303,7 @@
           ]
         },
         "east": {
+          "cullface": "east",
           "texture": "#0",
           "tintindex": 1,
           "uv": [
@@ -341,6 +345,7 @@
           ]
         },
         "west": {
+          "cullface": "west",
           "texture": "#0",
           "tintindex": 1,
           "uv": [
@@ -365,7 +370,6 @@
           10
         ]
       },
-      "shade": false,
       "to": [
         16,
         1,
@@ -375,6 +379,7 @@
     {
       "faces": {
         "down": {
+          "cullface": "down",
           "rotation": 270,
           "texture": "#0",
           "tintindex": 1,
@@ -386,6 +391,7 @@
           ]
         },
         "east": {
+          "cullface": "east",
           "texture": "#0",
           "tintindex": 1,
           "uv": [
@@ -427,6 +433,7 @@
           ]
         },
         "west": {
+          "cullface": "west",
           "texture": "#0",
           "tintindex": 1,
           "uv": [
@@ -438,7 +445,7 @@
         }
       },
       "from": [
-        0,
+        0.02999999999999936,
         0,
         10.55
       ],
@@ -451,9 +458,8 @@
           10
         ]
       },
-      "shade": false,
       "to": [
-        16,
+        15.97,
         1.2,
         11.45
       ]

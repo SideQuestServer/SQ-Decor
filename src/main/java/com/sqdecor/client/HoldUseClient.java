@@ -2,16 +2,23 @@ package com.sqdecor.client;
 
 import org.jetbrains.annotations.Nullable;
 
+import com.sqdecor.block.entity.LampBlockEntity;
 import com.sqdecor.block.lamp.LampBlock;
+import com.sqdecor.block.lamp.ShelfBlock;
+import com.sqdecor.block.lamp.ShelfTopBlock;
 import com.sqdecor.block.led.LedBlock;
 import com.sqdecor.item.LedTunerItem;
 import com.sqdecor.led.LedLogic;
+import com.sqdecor.network.LampTexturePayload;
 import com.sqdecor.network.LedCopyPayload;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.player.LocalPlayer;
+import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.DyeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.state.BlockState;
@@ -54,14 +61,36 @@ public final class HoldUseClient {
         }
         Minecraft mc = Minecraft.getInstance();
         LocalPlayer player = mc.player;
-        if (player == null || mc.level == null || player.isSpectator() || player.isSecondaryUseActive()) return;
+        if (player == null || mc.level == null || player.isSpectator()) return;
         if (!(mc.hitResult instanceof BlockHitResult hit) || hit.getType() != HitResult.Type.BLOCK) return;
+        if (Screen.hasControlDown()) {
+            BlockPos shelf = shelfAt(mc, hit.getBlockPos());
+            ItemStack held = player.getItemInHand(event.getHand());
+            if (shelf != null && held.getItem() instanceof BlockItem item && LampBlockEntity.canUseAsTexture(item.getBlock())) {
+                PacketDistributor.sendToServer(new LampTexturePayload(shelf, event.getHand() == InteractionHand.OFF_HAND));
+                player.swing(event.getHand());
+                event.setCanceled(true);
+                event.setSwingHand(false);
+                return;
+            }
+        }
+        if (player.isSecondaryUseActive()) return;
         Kind kind = kindFor(mc.level.getBlockState(hit.getBlockPos()), player.getItemInHand(event.getHand()), event.getHand());
         if (kind == null) return;
 
         pending = new Pending(hit, event.getHand(), kind);
         event.setCanceled(true);
         event.setSwingHand(false);
+    }
+
+    @Nullable
+    private static BlockPos shelfAt(Minecraft mc, BlockPos pos) {
+        BlockState state = mc.level.getBlockState(pos);
+        if (state.getBlock() instanceof ShelfBlock) return pos;
+        if (state.getBlock() instanceof ShelfTopBlock && mc.level.getBlockState(pos.below()).getBlock() instanceof ShelfBlock) {
+            return pos.below();
+        }
+        return null;
     }
 
     @Nullable
