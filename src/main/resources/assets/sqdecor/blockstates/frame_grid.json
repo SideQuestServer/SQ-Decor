@@ -1,0 +1,196 @@
+{
+  "variants": {
+    "down=false,east=false,north=false,south=false,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_0"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_32"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_16"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_48"
+    },
+    "down=false,east=false,north=false,south=false,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_8"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_40"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_24"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_56"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_4"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_36"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_20"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_52"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_12"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_44"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_28"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_60"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_2"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_34"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_18"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_50"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_10"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_42"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_26"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_58"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_6"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_38"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_22"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_54"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_14"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_46"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_30"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_62"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_1"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_33"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_17"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_49"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_9"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_41"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_25"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_57"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_5"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_37"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_21"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_53"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_13"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_45"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_29"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_61"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_3"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_35"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_19"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_51"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_11"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_43"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_27"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_59"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_7"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_39"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_23"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=false": {
+      "model": "sqdecor:block/frame/frame_grid_55"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_15"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_47"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_31"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=true": {
+      "model": "sqdecor:block/frame/frame_grid_63"
+    }
+  }
+}

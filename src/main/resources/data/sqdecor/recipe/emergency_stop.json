@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "B": {
+      "item": "minecraft:stone_button"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "R",
+    "B",
+    "Y"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sqdecor:emergency_stop"
+  }
+}

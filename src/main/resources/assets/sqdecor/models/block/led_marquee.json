@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "front": "sqdecor:block/led_marquee",
+    "side": "minecraft:block/black_concrete",
+    "particle": "minecraft:block/black_concrete"
+  },
+  "elements": [
+    {
+      "from": [0, 3, 15],
+      "to": [16, 13, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 10], "texture": "#front"},
+        "south": {"uv": [0, 3, 16, 13], "texture": "#side", "cullface": "south"},
+        "up": {"uv": [0, 15, 16, 16], "texture": "#side"},
+        "down": {"uv": [0, 0, 16, 1], "texture": "#side"},
+        "west": {"uv": [15, 3, 16, 13], "texture": "#side"},
+        "east": {"uv": [0, 3, 1, 13], "texture": "#side"}
+      }
+    }
+  ],
+  "display": {
+    "gui": {"rotation": [0, 180, 0], "translation": [0, 0, 0], "scale": [0.8, 0.8, 0.8]},
+    "fixed": {"rotation": [0, 180, 0], "scale": [0.8, 0.8, 0.8]},
+    "ground": {"translation": [0, 2, 0], "scale": [0.4, 0.4, 0.4]},
+    "thirdperson_righthand": {"rotation": [75, 180, 0], "translation": [0, 2.5, 0], "scale": [0.375, 0.375, 0.375]},
+    "firstperson_righthand": {"rotation": [0, 180, 0], "scale": [0.4, 0.4, 0.4]},
+    "firstperson_lefthand": {"rotation": [0, 180, 0], "scale": [0.4, 0.4, 0.4]}
+  }
+}

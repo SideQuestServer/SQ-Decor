@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "sqdecor:block/cable_clip",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "sqdecor:block/cable_clip",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sqdecor:block/cable_clip"
+    },
+    "facing=south": {
+      "model": "sqdecor:block/cable_clip",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "sqdecor:block/cable_clip",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "sqdecor:block/cable_clip",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "L",
+    "I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sqdecor:industrial_lever"
+  }
+}

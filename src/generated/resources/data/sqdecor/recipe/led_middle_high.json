@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sqdecor:led_strip"
+  },
+  "result": {
+    "count": 1,
+    "id": "sqdecor:led_middle_high"
+  }
+}

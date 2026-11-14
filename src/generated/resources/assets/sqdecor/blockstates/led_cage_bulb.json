@@ -1,0 +1,56 @@
+{
+  "variants": {
+    "facing=down,rotated=false": {
+      "model": "sqdecor:block/led/led_cage_bulb",
+      "x": 180
+    },
+    "facing=down,rotated=true": {
+      "model": "sqdecor:block/led/led_cage_bulb_rot",
+      "x": 180
+    },
+    "facing=east,rotated=false": {
+      "model": "sqdecor:block/led/led_cage_bulb",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,rotated=true": {
+      "model": "sqdecor:block/led/led_cage_bulb_rot",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north,rotated=false": {
+      "model": "sqdecor:block/led/led_cage_bulb",
+      "x": 90
+    },
+    "facing=north,rotated=true": {
+      "model": "sqdecor:block/led/led_cage_bulb_rot",
+      "x": 90
+    },
+    "facing=south,rotated=false": {
+      "model": "sqdecor:block/led/led_cage_bulb",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,rotated=true": {
+      "model": "sqdecor:block/led/led_cage_bulb_rot",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up,rotated=false": {
+      "model": "sqdecor:block/led/led_cage_bulb"
+    },
+    "facing=up,rotated=true": {
+      "model": "sqdecor:block/led/led_cage_bulb_rot"
+    },
+    "facing=west,rotated=false": {
+      "model": "sqdecor:block/led/led_cage_bulb",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west,rotated=true": {
+      "model": "sqdecor:block/led/led_cage_bulb_rot",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

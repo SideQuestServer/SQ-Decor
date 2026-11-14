@@ -1,0 +1,157 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "all": "sqdecor:block/style/medical_panel",
+    "particle": "sqdecor:block/style/medical_panel"
+  },
+  "elements": [
+    {
+      "from": [
+        6.5,
+        0,
+        6.5
+      ],
+      "to": [
+        9.5,
+        14,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            2,
+            9.5,
+            16.0
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [
+            6.5,
+            2,
+            9.5,
+            16.0
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "east": {
+          "uv": [
+            6.5,
+            2,
+            9.5,
+            16.0
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [
+            6.5,
+            2,
+            9.5,
+            16.0
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "up": {
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "down": {
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        14,
+        6
+      ],
+      "to": [
+        10,
+        15,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            1,
+            10,
+            2
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [
+            6,
+            1,
+            10,
+            2
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "east": {
+          "uv": [
+            6,
+            1,
+            10,
+            2
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [
+            6,
+            1,
+            10,
+            2
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "up": {
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "down": {
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

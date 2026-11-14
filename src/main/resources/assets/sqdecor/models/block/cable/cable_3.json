@@ -1,0 +1,740 @@
+{
+	"format_version": "1.9.0",
+	"texture_size": [
+		32,
+		32
+	],
+	"ambientocclusion": false, "render_type": "minecraft:cutout", "textures": {
+		"0": "sqdecor:block/cable/cable",
+		"particle": "sqdecor:block/cable/cable"
+	},
+	"elements": [
+		{
+			"from": [
+				2.35,
+				0.2,
+				0
+			],
+			"to": [
+				3.65,
+				1,
+				16
+			],
+			"shade": false, "rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					2,
+					0,
+					0
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						3,
+						4,
+						3.75,
+						5
+					],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						8,
+						1
+					],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"south": {
+					"uv": [
+						4,
+						3,
+						4.75,
+						4
+					],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"west": {
+					"uv": [
+						0,
+						1,
+						8,
+						2
+					],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"up": {
+					"uv": [
+						0,
+						2,
+						0.75,
+						10
+					],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"down": {
+					"uv": [
+						1,
+						2,
+						1.75,
+						10
+					],
+					"texture": "#0",
+					"tintindex": 0
+				}
+			}
+		},
+		{
+			"from": [
+				2.55,
+				0,
+				0
+			],
+			"to": [
+				3.45,
+				1.2,
+				16
+			],
+			"shade": false, "rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					2,
+					0,
+					0
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						3,
+						4,
+						3.75,
+						5
+					],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						8,
+						1
+					],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"south": {
+					"uv": [
+						4,
+						3,
+						4.75,
+						4
+					],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"west": {
+					"uv": [
+						0,
+						1,
+						8,
+						2
+					],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"up": {
+					"uv": [
+						0,
+						2,
+						0.75,
+						10
+					],
+					"texture": "#0",
+					"tintindex": 0
+				},
+				"down": {
+					"uv": [
+						1,
+						2,
+						1.75,
+						10
+					],
+					"texture": "#0",
+					"tintindex": 0
+				}
+			}
+		},
+		{
+			"from": [
+				7.35,
+				0.2,
+				0
+			],
+			"to": [
+				8.65,
+				1,
+				16
+			],
+			"shade": false, "rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					7,
+					0,
+					0
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						3,
+						4,
+						3.75,
+						5
+					],
+					"texture": "#0",
+					"tintindex": 1
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						8,
+						1
+					],
+					"texture": "#0",
+					"tintindex": 1
+				},
+				"south": {
+					"uv": [
+						4,
+						3,
+						4.75,
+						4
+					],
+					"texture": "#0",
+					"tintindex": 1
+				},
+				"west": {
+					"uv": [
+						0,
+						1,
+						8,
+						2
+					],
+					"texture": "#0",
+					"tintindex": 1
+				},
+				"up": {
+					"uv": [
+						0,
+						2,
+						0.75,
+						10
+					],
+					"texture": "#0",
+					"tintindex": 1
+				},
+				"down": {
+					"uv": [
+						1,
+						2,
+						1.75,
+						10
+					],
+					"texture": "#0",
+					"tintindex": 1
+				}
+			}
+		},
+		{
+			"from": [
+				7.55,
+				0,
+				0
+			],
+			"to": [
+				8.45,
+				1.2,
+				16
+			],
+			"shade": false, "rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					7,
+					0,
+					0
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						3,
+						4,
+						3.75,
+						5
+					],
+					"texture": "#0",
+					"tintindex": 1
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						8,
+						1
+					],
+					"texture": "#0",
+					"tintindex": 1
+				},
+				"south": {
+					"uv": [
+						4,
+						3,
+						4.75,
+						4
+					],
+					"texture": "#0",
+					"tintindex": 1
+				},
+				"west": {
+					"uv": [
+						0,
+						1,
+						8,
+						2
+					],
+					"texture": "#0",
+					"tintindex": 1
+				},
+				"up": {
+					"uv": [
+						0,
+						2,
+						0.75,
+						10
+					],
+					"texture": "#0",
+					"tintindex": 1
+				},
+				"down": {
+					"uv": [
+						1,
+						2,
+						1.75,
+						10
+					],
+					"texture": "#0",
+					"tintindex": 1
+				}
+			}
+		},
+		{
+			"from": [
+				12.35,
+				0.2,
+				0
+			],
+			"to": [
+				13.65,
+				1,
+				16
+			],
+			"shade": false, "rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					12,
+					0,
+					0
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						3,
+						4,
+						3.75,
+						5
+					],
+					"texture": "#0",
+					"tintindex": 2
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						8,
+						1
+					],
+					"texture": "#0",
+					"tintindex": 2
+				},
+				"south": {
+					"uv": [
+						4,
+						3,
+						4.75,
+						4
+					],
+					"texture": "#0",
+					"tintindex": 2
+				},
+				"west": {
+					"uv": [
+						0,
+						1,
+						8,
+						2
+					],
+					"texture": "#0",
+					"tintindex": 2
+				},
+				"up": {
+					"uv": [
+						0,
+						2,
+						0.75,
+						10
+					],
+					"texture": "#0",
+					"tintindex": 2
+				},
+				"down": {
+					"uv": [
+						1,
+						2,
+						1.75,
+						10
+					],
+					"texture": "#0",
+					"tintindex": 2
+				}
+			}
+		},
+		{
+			"from": [
+				12.55,
+				0,
+				0
+			],
+			"to": [
+				13.45,
+				1.2,
+				16
+			],
+			"shade": false, "rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					12,
+					0,
+					0
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						3,
+						4,
+						3.75,
+						5
+					],
+					"texture": "#0",
+					"tintindex": 2
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						8,
+						1
+					],
+					"texture": "#0",
+					"tintindex": 2
+				},
+				"south": {
+					"uv": [
+						4,
+						3,
+						4.75,
+						4
+					],
+					"texture": "#0",
+					"tintindex": 2
+				},
+				"west": {
+					"uv": [
+						0,
+						1,
+						8,
+						2
+					],
+					"texture": "#0",
+					"tintindex": 2
+				},
+				"up": {
+					"uv": [
+						0,
+						2,
+						0.75,
+						10
+					],
+					"texture": "#0",
+					"tintindex": 2
+				},
+				"down": {
+					"uv": [
+						1,
+						2,
+						1.75,
+						10
+					],
+					"texture": "#0",
+					"tintindex": 2
+				}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [
+				97,
+				0,
+				0
+			],
+			"translation": [
+				0,
+				3.25,
+				5.5
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [
+				97,
+				0,
+				0
+			],
+			"translation": [
+				0,
+				3.25,
+				5.5
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"firstperson_righthand": {
+			"rotation": [
+				64,
+				0,
+				0
+			],
+			"translation": [
+				-0.75,
+				5,
+				4.25
+			],
+			"scale": [
+				0.73,
+				0.72,
+				0.73
+			]
+		},
+		"firstperson_lefthand": {
+			"rotation": [
+				64,
+				0,
+				0
+			],
+			"translation": [
+				-0.75,
+				5,
+				4.25
+			],
+			"scale": [
+				0.73,
+				0.73,
+				0.73
+			]
+		},
+		"ground": {
+			"translation": [
+				0,
+				5,
+				0
+			],
+			"scale": [
+				0.79,
+				0.79,
+				0.79
+			]
+		},
+		"gui": {
+			"rotation": [
+				90,
+				-46,
+				0
+			]
+		},
+		"fixed": {
+			"rotation": [
+				-90,
+				-43,
+				0
+			],
+			"translation": [
+				0,
+				0,
+				-7
+			]
+		},
+		"on_shelf": {
+			"rotation": [
+				90,
+				16,
+				0
+			],
+			"translation": [
+				0,
+				0,
+				4.5
+			]
+		}
+	},
+	"groups": [
+		{
+			"name": "Cable",
+			"origin": [
+				9.5,
+				1.5,
+				7
+			],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "Assembly 1",
+					"origin": [
+						9.5,
+						1.5,
+						7
+					],
+					"scope": 0,
+					"color": 0,
+					"children": [
+						{
+							"name": "Wire",
+							"origin": [
+								9.5,
+								1.5,
+								7
+							],
+							"scope": 0,
+							"color": 0,
+							"children": [
+								0,
+								1
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cable",
+			"origin": [
+				9.5,
+				1.5,
+				7
+			],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "Assembly 1",
+					"origin": [
+						9.5,
+						1.5,
+						7
+					],
+					"scope": 0,
+					"color": 0,
+					"children": [
+						{
+							"name": "Wire",
+							"origin": [
+								9.5,
+								1.5,
+								7
+							],
+							"scope": 0,
+							"color": 0,
+							"children": [
+								2,
+								3
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cable",
+			"origin": [
+				9.5,
+				1.5,
+				7
+			],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "Assembly 1",
+					"origin": [
+						9.5,
+						1.5,
+						7
+					],
+					"scope": 0,
+					"color": 0,
+					"children": [
+						{
+							"name": "Wire",
+							"origin": [
+								9.5,
+								1.5,
+								7
+							],
+							"scope": 0,
+							"color": 0,
+							"children": [
+								4,
+								5
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

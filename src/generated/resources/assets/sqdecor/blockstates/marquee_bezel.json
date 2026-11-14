@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "sqdecor:block/marquee_bezel",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sqdecor:block/marquee_bezel"
+    },
+    "facing=south": {
+      "model": "sqdecor:block/marquee_bezel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sqdecor:block/marquee_bezel",
+      "y": 270
+    }
+  }
+}

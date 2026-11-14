@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "block": "sqdecor:industrial_wood_block_floor",
+              "function": "minecraft:copy_state",
+              "properties": [
+                "color"
+              ]
+            }
+          ],
+          "name": "sqdecor:industrial_wood_block_floor"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "sqdecor:blocks/industrial_wood_block_floor"
+}

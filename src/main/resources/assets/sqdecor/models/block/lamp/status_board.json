@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "sqdecor:lamp",
+  "model": "sqdecor:models/block/lamp/status_board.obj",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "texture": "sqdecor:block/lamp/white",
+    "particle": "sqdecor:block/lamp/white"
+  }
+}

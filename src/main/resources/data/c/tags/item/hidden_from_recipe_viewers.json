@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "sqdecor:tab_spacer",
+    "sqdecor:header_leds",
+    "sqdecor:header_ceiling",
+    "sqdecor:header_spots",
+    "sqdecor:header_warning",
+    "sqdecor:header_signs",
+    "sqdecor:header_screens",
+    "sqdecor:header_controls",
+    "sqdecor:header_cables",
+    "sqdecor:header_building",
+    "sqdecor:header_industrial",
+    "sqdecor:header_style_blocks",
+    "sqdecor:header_style_sets",
+    "sqdecor:header_props",
+    "sqdecor:header_tools",
+    "sqdecor:header_misc"
+  ]
+}

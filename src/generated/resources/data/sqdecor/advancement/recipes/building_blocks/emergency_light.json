@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_led_panel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqdecor:led_panel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sqdecor:emergency_light"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_led_panel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sqdecor:emergency_light"
+    ]
+  }
+}

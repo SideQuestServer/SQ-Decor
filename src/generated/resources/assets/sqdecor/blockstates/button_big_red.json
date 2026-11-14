@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "sqdecor:block/lamp/button_big_red",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "sqdecor:block/lamp/button_big_red",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sqdecor:block/lamp/button_big_red",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "sqdecor:block/lamp/button_big_red",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "sqdecor:block/lamp/button_big_red"
+    },
+    "facing=west": {
+      "model": "sqdecor:block/lamp/button_big_red",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

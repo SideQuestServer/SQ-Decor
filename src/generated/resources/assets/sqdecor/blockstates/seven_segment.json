@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "sqdecor:block/lamp/seven_segment",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "sqdecor:block/lamp/seven_segment",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sqdecor:block/lamp/seven_segment",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "sqdecor:block/lamp/seven_segment",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "sqdecor:block/lamp/seven_segment"
+    },
+    "facing=west": {
+      "model": "sqdecor:block/lamp/seven_segment",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

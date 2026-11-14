@@ -1,0 +1,193 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "all": "sqdecor:block/style/industrial_container",
+    "mesh": "sqdecor:block/style/fence_mesh",
+    "particle": "sqdecor:block/style/industrial_container"
+  },
+  "elements": [
+    {
+      "from": [
+        7.4,
+        14.2,
+        0
+      ],
+      "to": [
+        8.6,
+        15.2,
+        6.8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.4,
+            0.8,
+            8.6,
+            1.8
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [
+            7.4,
+            0.8,
+            8.6,
+            1.8
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "east": {
+          "uv": [
+            9.2,
+            0.8,
+            16.0,
+            1.8
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [
+            0.0,
+            0.8,
+            6.8,
+            1.8
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "up": {
+          "uv": [
+            7.4,
+            0.0,
+            8.6,
+            6.8
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "down": {
+          "uv": [
+            7.4,
+            0.0,
+            8.6,
+            6.8
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        7.4,
+        0.4,
+        0
+      ],
+      "to": [
+        8.6,
+        1.4,
+        6.8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.4,
+            14.6,
+            8.6,
+            15.6
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [
+            7.4,
+            14.6,
+            8.6,
+            15.6
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "east": {
+          "uv": [
+            9.2,
+            14.6,
+            16.0,
+            15.6
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [
+            0.0,
+            14.6,
+            6.8,
+            15.6
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "up": {
+          "uv": [
+            7.4,
+            0.0,
+            8.6,
+            6.8
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        },
+        "down": {
+          "uv": [
+            7.4,
+            0.0,
+            8.6,
+            6.8
+          ],
+          "texture": "#all",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        7.9,
+        1.4,
+        0
+      ],
+      "to": [
+        8.1,
+        14.2,
+        6.8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            9.2,
+            1.8,
+            16.0,
+            14.6
+          ],
+          "texture": "#mesh",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [
+            0.0,
+            1.8,
+            6.8,
+            14.6
+          ],
+          "texture": "#mesh",
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "face=ceiling,facing=east": {
+      "model": "sqdecor:block/image_monitor",
+      "x": 90,
+      "y": 90
+    },
+    "face=ceiling,facing=north": {
+      "model": "sqdecor:block/image_monitor",
+      "x": 90
+    },
+    "face=ceiling,facing=south": {
+      "model": "sqdecor:block/image_monitor",
+      "x": 90,
+      "y": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "sqdecor:block/image_monitor",
+      "x": 90,
+      "y": 270
+    },
+    "face=floor,facing=east": {
+      "model": "sqdecor:block/image_monitor",
+      "x": 270,
+      "y": 270
+    },
+    "face=floor,facing=north": {
+      "model": "sqdecor:block/image_monitor",
+      "x": 270,
+      "y": 180
+    },
+    "face=floor,facing=south": {
+      "model": "sqdecor:block/image_monitor",
+      "x": 270
+    },
+    "face=floor,facing=west": {
+      "model": "sqdecor:block/image_monitor",
+      "x": 270,
+      "y": 90
+    },
+    "face=wall,facing=east": {
+      "model": "sqdecor:block/image_monitor",
+      "y": 90
+    },
+    "face=wall,facing=north": {
+      "model": "sqdecor:block/image_monitor"
+    },
+    "face=wall,facing=south": {
+      "model": "sqdecor:block/image_monitor",
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "sqdecor:block/image_monitor",
+      "y": 270
+    }
+  }
+}

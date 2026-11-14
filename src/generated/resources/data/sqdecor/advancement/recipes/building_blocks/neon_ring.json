@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_led_strip": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqdecor:led_strip"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sqdecor:neon_ring"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_led_strip"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sqdecor:neon_ring"
+    ]
+  }
+}

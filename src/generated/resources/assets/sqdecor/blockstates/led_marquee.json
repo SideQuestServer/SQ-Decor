@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "sqdecor:block/led_marquee",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sqdecor:block/led_marquee"
+    },
+    "facing=south": {
+      "model": "sqdecor:block/led_marquee",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sqdecor:block/led_marquee",
+      "y": 270
+    }
+  }
+}

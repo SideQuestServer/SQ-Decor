@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sqdecor:led_bulb"
+  },
+  "result": {
+    "count": 1,
+    "id": "sqdecor:industrial_cage_tube"
+  }
+}

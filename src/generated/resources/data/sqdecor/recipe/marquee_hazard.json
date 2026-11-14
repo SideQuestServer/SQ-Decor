@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sqdecor:led_marquee"
+  },
+  "result": {
+    "count": 1,
+    "id": "sqdecor:marquee_hazard"
+  }
+}

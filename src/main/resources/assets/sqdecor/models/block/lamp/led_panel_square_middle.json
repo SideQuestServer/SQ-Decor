@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "sqdecor:lamp",
+  "model": "sqdecor:models/block/lamp/led_panel_square_middle.obj",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "offset": [
+    16,
+    0,
+    16
+  ],
+  "textures": {
+    "texture": "sqdecor:block/lamp/white",
+    "particle": "sqdecor:block/lamp/white"
+  }
+}

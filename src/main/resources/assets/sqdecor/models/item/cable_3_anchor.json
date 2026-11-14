@@ -1,0 +1,17 @@
+{
+  "parent": "sqdecor:block/cable/cable_3_anchor",
+  "display": {
+    "gui": {
+      "rotation": [
+        90.0,
+        -46.0,
+        0.0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    }
+  }
+}

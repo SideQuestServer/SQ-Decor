@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "sqdecor:lamp",
+  "model": "sqdecor:models/block/lamp/assembly_point_sign.obj",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "texture": "sqdecor:block/lamp/white",
+    "particle": "sqdecor:block/lamp/white",
+    "screen_assembly_point_sign": "sqdecor:block/screen/assembly_point_sign"
+  }
+}

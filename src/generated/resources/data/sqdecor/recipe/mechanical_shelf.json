@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sqdecor:mechanical_fence"
+  },
+  "result": {
+    "count": 1,
+    "id": "sqdecor:mechanical_shelf"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "sqdecor:lamp",
+  "model": "sqdecor:models/block/lamp/monitor_wall.obj",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "texture": "sqdecor:block/lamp/white",
+    "particle": "sqdecor:block/lamp/white",
+    "screen_camera": "sqdecor:block/screen/camera",
+    "screen_graph_tall": "sqdecor:block/screen/graph_tall",
+    "screen_status_tall": "sqdecor:block/screen/status_tall"
+  }
+}

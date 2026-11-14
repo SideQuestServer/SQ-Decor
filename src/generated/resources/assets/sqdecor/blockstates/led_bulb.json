@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "sqdecor:block/led/led_bulb",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "sqdecor:block/led/led_bulb",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sqdecor:block/led/led_bulb",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "sqdecor:block/led/led_bulb",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "sqdecor:block/led/led_bulb"
+    },
+    "facing=west": {
+      "model": "sqdecor:block/led/led_bulb",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

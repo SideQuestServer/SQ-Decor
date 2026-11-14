@@ -1,0 +1,34 @@
+{
+  "parent": "sqdecor:block/led/led_bulb",
+  "display": {
+    "fixed": {
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "translation": [
+        0,
+        -2,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "translation": [
+        0,
+        8,
+        0
+      ]
+    }
+  }
+}

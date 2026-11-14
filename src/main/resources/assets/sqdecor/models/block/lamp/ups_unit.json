@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "sqdecor:lamp",
+  "model": "sqdecor:models/block/lamp/ups_unit.obj",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "texture": "sqdecor:block/lamp/white",
+    "particle": "sqdecor:block/lamp/white",
+    "screen_lcd_ups": "sqdecor:block/screen/lcd_ups"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "sqdecor:light_switch"
+    },
+    {
+      "item": "minecraft:observer"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sqdecor:motion_sensor"
+  }
+}

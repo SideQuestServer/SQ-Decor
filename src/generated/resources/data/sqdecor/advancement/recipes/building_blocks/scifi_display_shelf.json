@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_scifi_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqdecor:scifi_fence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sqdecor:scifi_display_shelf"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_scifi_fence"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sqdecor:scifi_display_shelf"
+    ]
+  }
+}

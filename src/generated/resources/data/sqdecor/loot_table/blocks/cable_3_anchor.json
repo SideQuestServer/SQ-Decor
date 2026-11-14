@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "block": "sqdecor:cable_3_anchor",
+              "function": "minecraft:copy_state",
+              "properties": [
+                "color"
+              ]
+            }
+          ],
+          "name": "sqdecor:cable_3_anchor"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "sqdecor:blocks/cable_3_anchor"
+}

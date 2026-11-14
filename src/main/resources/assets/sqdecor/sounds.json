@@ -1,0 +1,38 @@
+{
+  "led_click": {
+    "subtitle": "subtitles.sqdecor.led_click",
+    "sounds": [{"name": "minecraft:random/click", "volume": 0.6}]
+  },
+  "light_switch": {
+    "subtitle": "subtitles.sqdecor.light_switch",
+    "sounds": [{"name": "minecraft:random/wood_click"}]
+  },
+  "remote": {
+    "subtitle": "subtitles.sqdecor.remote",
+    "sounds": [{"name": "minecraft:random/click", "pitch": 1.6, "volume": 0.5}]
+  },
+  "alarm_horn": {
+    "subtitle": "subtitles.sqdecor.alarm_horn",
+    "sounds": [{"name": "sqdecor:alarm_horn", "attenuation_distance": 24}]
+  },
+  "beacon": {
+    "subtitle": "subtitles.sqdecor.beacon",
+    "sounds": [{"name": "sqdecor:beacon"}]
+  },
+  "motion_sensor": {
+    "subtitle": "subtitles.sqdecor.motion_sensor",
+    "sounds": [{"name": "sqdecor:motion_sensor"}]
+  },
+  "marquee": {
+    "subtitle": "subtitles.sqdecor.marquee",
+    "sounds": [{"name": "sqdecor:marquee"}]
+  },
+  "monitor_touch": {
+    "subtitle": "subtitles.sqdecor.monitor_touch",
+    "sounds": [{"name": "sqdecor:monitor_touch"}]
+  },
+  "monitor_on": {
+    "subtitle": "subtitles.sqdecor.monitor_on",
+    "sounds": [{"name": "sqdecor:monitor_on"}]
+  }
+}

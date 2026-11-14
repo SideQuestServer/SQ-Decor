@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "sqdecor:block/lamp/fingerprint_scanner",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "sqdecor:block/lamp/fingerprint_scanner",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sqdecor:block/lamp/fingerprint_scanner",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "sqdecor:block/lamp/fingerprint_scanner",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "sqdecor:block/lamp/fingerprint_scanner"
+    },
+    "facing=west": {
+      "model": "sqdecor:block/lamp/fingerprint_scanner",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

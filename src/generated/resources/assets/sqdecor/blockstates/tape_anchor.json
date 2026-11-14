@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "sqdecor:block/tape_anchor",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "sqdecor:block/tape_anchor",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sqdecor:block/tape_anchor"
+    },
+    "facing=south": {
+      "model": "sqdecor:block/tape_anchor",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "sqdecor:block/tape_anchor",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "sqdecor:block/tape_anchor",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sqdecor:spotlight"
+  },
+  "result": {
+    "count": 1,
+    "id": "sqdecor:track_spots"
+  }
+}

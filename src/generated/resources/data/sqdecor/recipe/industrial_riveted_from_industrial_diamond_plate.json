@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sqdecor:industrial_diamond_plate"
+  },
+  "result": {
+    "count": 1,
+    "id": "sqdecor:industrial_riveted"
+  }
+}

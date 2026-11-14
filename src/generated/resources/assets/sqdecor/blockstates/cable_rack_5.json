@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "facing=down,turned=false": {
+      "model": "sqdecor:block/cable_rack_5",
+      "x": 90
+    },
+    "facing=down,turned=true": {
+      "model": "sqdecor:block/cable_rack_5_turned",
+      "x": 90
+    },
+    "facing=east,turned=false": {
+      "model": "sqdecor:block/cable_rack_5",
+      "y": 90
+    },
+    "facing=east,turned=true": {
+      "model": "sqdecor:block/cable_rack_5_turned",
+      "y": 90
+    },
+    "facing=north,turned=false": {
+      "model": "sqdecor:block/cable_rack_5"
+    },
+    "facing=north,turned=true": {
+      "model": "sqdecor:block/cable_rack_5_turned"
+    },
+    "facing=south,turned=false": {
+      "model": "sqdecor:block/cable_rack_5",
+      "y": 180
+    },
+    "facing=south,turned=true": {
+      "model": "sqdecor:block/cable_rack_5_turned",
+      "y": 180
+    },
+    "facing=up,turned=false": {
+      "model": "sqdecor:block/cable_rack_5",
+      "x": 270
+    },
+    "facing=up,turned=true": {
+      "model": "sqdecor:block/cable_rack_5_turned",
+      "x": 270
+    },
+    "facing=west,turned=false": {
+      "model": "sqdecor:block/cable_rack_5",
+      "y": 270
+    },
+    "facing=west,turned=true": {
+      "model": "sqdecor:block/cable_rack_5_turned",
+      "y": 270
+    }
+  }
+}

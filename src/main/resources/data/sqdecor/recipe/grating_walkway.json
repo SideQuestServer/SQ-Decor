@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "pattern": [
+    "I I",
+    "BBB"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sqdecor:grating_walkway"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "half": "bottom"
+      },
+      "apply": {
+        "model": "sqdecor:block/walkway/grating_walkway_bottom"
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "north": "true"
+      },
+      "apply": {
+        "model": "sqdecor:block/walkway/grating_walkway_rail_bottom"
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "east": "true"
+      },
+      "apply": {
+        "model": "sqdecor:block/walkway/grating_walkway_rail_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "south": "true"
+      },
+      "apply": {
+        "model": "sqdecor:block/walkway/grating_walkway_rail_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "west": "true"
+      },
+      "apply": {
+        "model": "sqdecor:block/walkway/grating_walkway_rail_bottom",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "half": "top"
+      },
+      "apply": {
+        "model": "sqdecor:block/walkway/grating_walkway_top"
+      }
+    },
+    {
+      "when": {
+        "half": "top",
+        "north": "true"
+      },
+      "apply": {
+        "model": "sqdecor:block/walkway/grating_walkway_rail_top"
+      }
+    },
+    {
+      "when": {
+        "half": "top",
+        "east": "true"
+      },
+      "apply": {
+        "model": "sqdecor:block/walkway/grating_walkway_rail_top",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "half": "top",
+        "south": "true"
+      },
+      "apply": {
+        "model": "sqdecor:block/walkway/grating_walkway_rail_top",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "half": "top",
+        "west": "true"
+      },
+      "apply": {
+        "model": "sqdecor:block/walkway/grating_walkway_rail_top",
+        "y": 270
+      }
+    }
+  ]
+}

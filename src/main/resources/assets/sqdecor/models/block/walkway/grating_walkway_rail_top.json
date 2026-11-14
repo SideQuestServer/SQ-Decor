@@ -1,0 +1,203 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "grate": "sqdecor:block/walkway/grating",
+    "rail": "sqdecor:block/pipe/pipe",
+    "frame": "sqdecor:block/pipe/pipe_detail",
+    "particle": "sqdecor:block/pipe/pipe_detail"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        16,
+        0.25
+      ],
+      "to": [
+        1.5,
+        30,
+        1.75
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#rail",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        14.5,
+        16,
+        0.25
+      ],
+      "to": [
+        16,
+        30,
+        1.75
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#rail",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        28.5,
+        0.25
+      ],
+      "to": [
+        16,
+        30,
+        1.75
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#rail",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        0.5,
+        22.4,
+        0.5
+      ],
+      "to": [
+        15.5,
+        23.6,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#rail",
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#rail",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [
+        0.5,
+        16,
+        0.5
+      ],
+      "to": [
+        15.5,
+        17.5,
+        1
+      ],
+      "faces": {
+        "north": {
+          "texture": "#frame",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#frame",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#frame",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#frame",
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#frame",
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#frame",
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

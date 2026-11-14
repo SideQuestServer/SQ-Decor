@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "sqdecor:cable_1"
+    },
+    {
+      "item": "sqdecor:cable_1"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sqdecor:cable_2"
+  }
+}

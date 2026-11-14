@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "sqdecor:led_cage_bulb"
+  },
+  "result": {
+    "count": 1,
+    "id": "sqdecor:bulkhead"
+  }
+}

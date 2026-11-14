@@ -1,0 +1,286 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "plate": "minecraft:block/quartz_block_side",
+    "particle": "minecraft:block/quartz_block_side",
+    "on": "minecraft:block/lime_concrete",
+    "off": "minecraft:block/gray_concrete",
+    "plus": "minecraft:block/white_concrete",
+    "minus": "minecraft:block/gray_concrete"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        4
+      ],
+      "to": [
+        11,
+        1,
+        12
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            5,
+            4,
+            11,
+            12
+          ],
+          "texture": "#plate",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            5,
+            4,
+            11,
+            12
+          ],
+          "texture": "#plate"
+        },
+        "north": {
+          "uv": [
+            5,
+            15,
+            11,
+            16
+          ],
+          "texture": "#plate"
+        },
+        "south": {
+          "uv": [
+            5,
+            15,
+            11,
+            16
+          ],
+          "texture": "#plate"
+        },
+        "west": {
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ],
+          "texture": "#plate"
+        },
+        "east": {
+          "uv": [
+            4,
+            15,
+            12,
+            16
+          ],
+          "texture": "#plate"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        1,
+        8.5
+      ],
+      "to": [
+        10,
+        2,
+        11.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            6,
+            8.5,
+            10,
+            11.5
+          ],
+          "texture": "#plus"
+        },
+        "up": {
+          "uv": [
+            6,
+            8.5,
+            10,
+            11.5
+          ],
+          "texture": "#plus"
+        },
+        "north": {
+          "uv": [
+            6,
+            14,
+            10,
+            15
+          ],
+          "texture": "#plus"
+        },
+        "south": {
+          "uv": [
+            6,
+            14,
+            10,
+            15
+          ],
+          "texture": "#plus"
+        },
+        "west": {
+          "uv": [
+            8.5,
+            14,
+            11.5,
+            15
+          ],
+          "texture": "#plus"
+        },
+        "east": {
+          "uv": [
+            8.5,
+            14,
+            11.5,
+            15
+          ],
+          "texture": "#plus"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        1,
+        4.5
+      ],
+      "to": [
+        10,
+        1.6,
+        7.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            6,
+            4.5,
+            10,
+            7.5
+          ],
+          "texture": "#minus"
+        },
+        "up": {
+          "uv": [
+            6,
+            4.5,
+            10,
+            7.5
+          ],
+          "texture": "#minus"
+        },
+        "north": {
+          "uv": [
+            6,
+            14.4,
+            10,
+            15
+          ],
+          "texture": "#minus"
+        },
+        "south": {
+          "uv": [
+            6,
+            14.4,
+            10,
+            15
+          ],
+          "texture": "#minus"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            14.4,
+            7.5,
+            15
+          ],
+          "texture": "#minus"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            14.4,
+            7.5,
+            15
+          ],
+          "texture": "#minus"
+        }
+      }
+    },
+    {
+      "from": [
+        9.5,
+        0.99,
+        10.5
+      ],
+      "to": [
+        10.5,
+        1.4,
+        11.51
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            9.5,
+            10.5,
+            10.5,
+            11.5
+          ],
+          "texture": "#off"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            10.5,
+            10.5,
+            11.5
+          ],
+          "texture": "#off"
+        },
+        "north": {
+          "uv": [
+            9.5,
+            14.6,
+            10.5,
+            15
+          ],
+          "texture": "#off"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            14.6,
+            10.5,
+            15
+          ],
+          "texture": "#off"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            14.6,
+            11.5,
+            15
+          ],
+          "texture": "#off"
+        },
+        "east": {
+          "uv": [
+            10.5,
+            14.6,
+            11.5,
+            15
+          ],
+          "texture": "#off"
+        }
+      }
+    }
+  ]
+}

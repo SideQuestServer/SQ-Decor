@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_led_marquee": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sqdecor:led_marquee"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sqdecor:marquee_framed"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_led_marquee"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sqdecor:marquee_framed"
+    ]
+  }
+}
